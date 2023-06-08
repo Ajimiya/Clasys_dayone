@@ -1,0 +1,118 @@
+ <html>
+<head>
+<style>
+.container {
+    padding: 50px;
+    background-color: lightblue;
+    
+}
+
+input[type=text], input[type=password], input[type=number],input[type=date],textarea ,select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+form{
+    width: 700px;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a12cf0;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: rgb(227, 21, 235);
+  }
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> REGISTRATION FORM</h1> </center>
+  <hr>
+  <label> Firstname </label> 
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required /> 
+<label> Lastname: </label>  
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+<label> Date of birth :</label> 
+<input type="date" name="date" size="15" required /> 
+<label> Age: </label> 
+<input type="number"  name="Age "placeholder="Age" size="15" required /> 
+<br><br>
+<div>
+    <label> 
+    Gender :
+    </label><br>
+    <input type="radio" value="Male" name="gender" checked > Male 
+    <input type="radio" value="Female" name="gender"> Female 
+    <input type="radio" value="Other" name="gender"> Other
+</div><br><br>
+
+<label>Phone number</label> 
+<input type="number" name="num" placeholder="Phone number" size="15" required /><br><br>
+<label>Email address</label> 
+<input type="text" name="email" placeholder="Email" size="15" required /> 
+<div>
+    <label>
+        <br>
+        Address:
+    </label>
+    <textarea placeholder="Enter your address"></textarea>
+</div>
+<div>
+<label> 
+<div>
+    <label> 
+    <br>
+    State :
+    </label> 
+    <select>
+    <option value="Course">Select State</option>
+    <option value="Kerala">KERALA</option>
+    <option value="Tamilnadu">TAMILNADU</option>
+    <option value="Karnataka">KARNATAKA</option>
+    <option value="Goa">GOA</option>
+    </select>
+    <br>
+    </div>
+<div>
+    <label> 
+    <br>
+    city :
+    </label> 
+    <select>
+    <option value="Course">Select city</option>
+    <option value="Kochi">KOCHI</option>
+    <option value="Tiruvalla">TIRUVALLA</option>
+    <option value="Trivandrum">TRIVANDRUM</option>
+    <option value="Chennai">CHENNAI</option>
+    <option value="coimbatore">COIMBATORE</option>
+    <option value="Tirunelveli">TIRUNELVELI</option>
+    <option value="Bengalore">BENGALORE</option> 
+    <option value="Mysore">MYSORE</option>
+    <option value="Panaji">PANAJI</option>
+    <option value="Margao">MARGAO</option>
+     </select>
+    <br>
+    </div>
+</div>
+<label> Username: </label>  
+<input type="text" name="username" placeholder= "Username" size="15" required /> 
+<label> Password: </label>  
+<input type="password" name="" placeholder= "Password" size="15" required /> 
+<label> Confirm  Password: </label>  
+<input type="password" name="" placeholder= "Confirm Password" size="15" required /> 
+<br>
+<button type="submit">REGISER HERE</button><br>
+<div class="para"></div>
+         <p>Already have account ?<i><b><a href="login.html">Sign In</b></i></a></p>
+</div>
+
